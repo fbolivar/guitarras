@@ -1,0 +1,45 @@
+/* TIPO DE SELECTOR{
+	PROPIEDAD: VALOR;
+	PROPIEDAD-2: VALOR;
+}*/
+/* Selector universal */
+*{
+	border: 1px solid red;
+	margin: 10px;
+}
+/* Selector de Etiqueta*/
+header{
+	background: blue;
+}
+
+/* Selector de Etiqueta*/
+section {
+	background: purple;
+}
+
+/* Selector descendente - funcione como una cascada*/
+
+article h3{
+	color: green;
+}
+
+/* Selectores de clase - funcionan en base a atributos*/
+
+
+.title-a{
+	background: yellow;
+}
+.title-b{
+	background: salmon;
+}
+/* selector de ID*/
+
+#header{
+	border: 3px solid black;
+}
+#portada{
+	border: 3px solid orange; 
+}
+#guitarras{
+	border: 3px solid red;
+}
